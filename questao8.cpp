@@ -26,7 +26,7 @@ No* removeFim(No *inicio) {
         p = p->proximo;
     }
     
-    // Remove o último nó e atualiza o ponteiro do penúltimo nó
+    // Remove o último nó e atualiza o ponteiro do penúltimo nó, operador
     delete p->proximo;
     p->proximo = nullptr;
     
